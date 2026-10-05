@@ -1,4 +1,4 @@
-let array = [2,4,6,70,90,5,3,2];
+let array = [2,1,1,1,1,1,1,1,1];
 
 let largest = -Infinity;
 let secLargest = -Infinity;
@@ -8,7 +8,7 @@ for (const e of array) {
         secLargest = largest
         largest=e
      }
-    else if (e > secLargest && e !== Largest) {
+    else if (e > secLargest && e !== largest) {
         secLargest = e
     }
 }
